@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+</head>
+<body>
+    <script>
+    const Out="ifBallTouchBat"
+    let fly=""
+    if (Out==="ifBallTouchBat"){
+        fly="inTheAir"
+    }
+    else{
+        fly="OnTheGround"
+    }
+    const ifBallKeep="inTheAir"
+    let Catch=""
+    if(ifBallKeep==="inTheAir"){
+    Catch="OutSideBoundary"
+    }
+    else{
+        Catch="InsideBoundary"
+    }
+    if(Catch==="InsideBoundary")
+    {console.log(`Out`)}
+    else
+    {console.log(`NotOut`)}
+    </script>
+</body>
+</html>
